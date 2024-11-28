@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: rgb(241, 245, 241);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src:
+        url('./assets/Fonts/Poppins/Poppins-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.heading {
+    position: absolute;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 0.5s ease, transform 0.5s ease, font-size 0.5s ease;
+}
+
+.heading.side {
+    opacity: 0;
+    transform: scale(0.1);
+}
+
+.heading.center {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.heading.hidden {
+    opacity: 0;
+    transform: scale(0.5);
+    pointer-events: none;
+}
+
+
+.rotate-y-360 {
+    transform: rotateY(360deg);
+    transition: 1s ease-in-out;
+}
+
+
+
+/* .animatedText */
+.animated-text {
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.animated-text span {
+    position: relative;
+}
+
+.animated-text span::before {
+    content: "Blockchain Based Household Services Providers";
+    color: #F14F4E;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after {
+    background: black;
+    content: "";
+    position: absolute;
+
+    width: calc(100% + 8px);
+    height: 100%;
+
+
+    border-left: 2px solid #F14F4E;
+    right: -8px;
+    animation: cursor 1s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to {
+        border-left: 2px solid;
+    }
+}
+
+@keyframes words {
+
+    0%,
+    20% {
+        content: "Blockchain Based Household Services Providers";
+    }
+
+    21%,
+    40% {
+        content: "Blockchain Based Household Services Providers";
+    }
+
+    41%,
+    60% {
+        content: "Blockchain Based Household Services Providers";
+    }
+
+    61%,
+    80% {
+        content: "Blockchain Based Household Services Providers";
+    }
+
+    81%,
+    100% {
+        content: "Blockchain Based Household Services Providers";
+    }
+}
+
+@keyframes typing {
+
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95% {
+        width: 0;
+    }
+
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85% {
+        width: calc(100% + 8px);
+    }
+}

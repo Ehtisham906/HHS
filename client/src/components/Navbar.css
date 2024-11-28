@@ -1,0 +1,156 @@
+.navbar {
+    position: sticky;
+    top: 0;  
+    left: 0;
+    right: 0;
+    background-color: white; 
+    width: 100%;
+    transition: padding 0.3s ease-in-out;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-items .nav-links {
+    position: relative;
+}
+ 
+.dropDownMenu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 2;
+}
+
+.nav-items .nav-links:hover .dropDownMenu {
+    display: block;
+}
+
+.nav-items .nav-links:hover .dropDownMenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2dvh;
+}
+
+
+
+.nav-items .nav-links .dropDownMenu ul li:hover {
+    color: #F64839;
+}
+
+.dropDownMenu ul {
+    width: 250px;
+    background-color: white;
+    box-shadow: 0px 1px 10px 8px rgba(1, 18, 171, 0.15);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo {
+    width: fit-content;
+}
+
+.navbar-toggler {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.navbar .nav-items {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    position: relative;
+}
+
+.navbar .nav-items .nav-links {
+    padding: 10px;
+}
+
+.nav-items a {
+    font-size: 98%;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+    position: relative;
+    width: fit-content;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+@media screen and (max-width:937px) {
+    .navbar {
+        flex-direction: column;
+        
+    }
+
+    .navbar .logo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .navbar .logo .navbar-toggler {
+        display: block;
+    }
+
+    .navbar .nav-items {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-self: flex-start;
+        margin-right: 0;
+        right: 0;
+        height: 500px;
+        position: absolute; 
+        padding: 0px 0px 20px 10px;
+        top: 118px;
+    }
+    
+    .open {
+        left: 0;
+        
+        flex-direction: column;
+        
+        width: 100% !important;
+        
+        background-color: #FFF;
+        box-shadow: 0px 70px 90px 0px rgba(0, 0, 0, 0.15);
+        position: fixed;
+        transition: all ease-in-out 0.3s;
+        padding: 0px 0px 15px 0px;
+    }
+
+    .close {
+        transition: all ease-in-out 0.3s;
+        left: -390px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:639px) {
+    .open {
+        left: 0;
+        flex-direction: column;
+        top: 118px !important;
+        width: 100%;
+        
+        background-color: #FFF;
+        box-shadow: 0px 70px 90px 0px rgba(0, 0, 0, 0.15);
+        
+        position: fixed;
+        transition: all 0.3s;
+        padding: 0px 0px 15px 0px;
+    }
+}
