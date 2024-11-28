@@ -105,13 +105,13 @@ export default function Home() {
           <br />
         </section>
 
-        <section className='mt-[20dvh]  text-white'>
+        <section className="mt-[20dvh]  text-white">
           <div className='text-center'>
-            <h1 className='text-1xl font-bold'>OUR SERVICES</h1>
+            <h1 className='text-1xl font-bold'>OUR <span className='text-secondary'>SERVICES</span></h1>
           </div>
-          <div className='flex justify-around flex-wrap gap-y-10'>
-            <div className='w-[30%] flex flex-col rounded-2xl py-10 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] px-16 justify-center items-center'>
-              <div className='p-4 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] rounded-full flex justify-center items-center bg-[#5025FF]'>
+          <div className='flex justify-around flex-wrap gap-y-10 mt-5'>
+            <div className='border  w-[30%] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 flex flex-col rounded-2xl py-10 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] px-16 justify-center items-center'>
+              <div className='border p-4 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] rounded-full flex justify-center items-center '>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" color="#ffff" fill="none">
                   <path d="M2 17.5H8M8 20.5H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                   <path d="M16 17.5H22M22 20.5H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -124,8 +124,8 @@ export default function Home() {
               <h1 className='text-1xl'>Plumber</h1>
               <p className='text-center'>Experience top-notch plumbing services tailored to meet your needs, ensuring your home runs smoothly and efficiently.</p>
             </div>
-            <div className='w-[30%] flex flex-col rounded-2xl py-10 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] px-16 justify-center items-center'>
-              <div className='p-4 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] rounded-full flex justify-center items-center bg-[#5025FF]'>
+            <div className='border  w-[30%] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 flex flex-col rounded-2xl py-10 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] px-16 justify-center items-center'>
+              <div className='p-4 border shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] rounded-full flex justify-center items-center '>
 
                 <svg fill="currentcolor" height="64" width="64" version="1.1" id="Layer_1" viewBox="0 0 512.001 512.001" stroke="#ffff">
                   <g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <circle cx="226.633" cy="98.633" r="39.328"></circle> </g> </g> <g> <g> <path d="M289.959,242.55c-12.421-5.407-20.868-9.086-33.565-14.614c-3.235-1.411-7.008,0.071-8.42,3.31l-0.746,1.713 c-36.457-13.082-20.753-7.447-57.647-20.686l-16.24-65.796l28.162,51.9l9.167,3.289l8.088-12.25 c8.084-12.246,4.711-28.725-7.534-36.81l-39.54-26.104c-12.246-8.084-28.725-4.711-36.81,7.534 c-2.411,3.653-51.729,78.698-68.977,104.945c-3.837,5.839-5.897,12.686-5.893,19.673c0.014,20.255,0.104,64.933,0.597,95.963 L5.107,418.302c-7.53,8.642-6.63,21.753,2.012,29.284c8.643,7.532,21.754,6.629,29.285-2.012l60.721-69.683 c3.365-3.863,5.183-8.833,5.105-13.956l-1.34-86.993l6.036,3.985l37.1,55.662l-14.054,94.288 c-1.69,11.338,6.131,21.898,17.469,23.588c11.334,1.691,21.899-6.129,23.589-17.469l15.233-102.202 c0.758-5.093-0.402-10.286-3.258-14.571l-24.76-37.149l12.815-19.411l-8.286-2.974c-15.551-5.58-22.517-20.27-22.61-28.409 l-0.828-72.85l17.933,72.654c1.433,5.803,5.675,10.489,11.282,12.502l64.41,23.112l-0.777,1.784 c-1.413,3.245,0.078,7.013,3.31,8.421c16.134,7.029,17.2,7.494,33.566,14.624c3.217,1.403,7-0.05,8.42-3.309l15.789-36.249 C294.681,247.736,293.199,243.961,289.959,242.55z M259.258,272.302L247.088,267c7.308-2.309,12.607-9.138,12.607-17.21 c0-2.522-0.522-4.919-1.458-7.096l11.701,5.095L259.258,272.302z"></path> </g> </g> <g> <g> <path d="M505.083,307.328H390.299l5.591-12.848c1.026-2.358-0.054-5.101-2.41-6.127l-82.966-36.138 c-1.132-0.493-2.415-0.516-3.564-0.065c-1.149,0.452-2.072,1.342-2.565,2.474l-15.121,34.723c-0.569,1.307-0.509,2.803,0.165,4.06 c0.674,1.256,1.886,2.135,3.29,2.384l1.467,0.26c1.35,0.24,2.736-0.127,3.789-1.003l4.361-3.623 c0.133-0.11,0.311-0.146,0.476-0.096c0.164,0.05,0.292,0.181,0.341,0.347l1.641,5.664c0.044,0.152,0.155,0.274,0.301,0.332 c0.147,0.058,0.312,0.046,0.448-0.035l4.251-2.496c0.223-0.13,0.508-0.075,0.665,0.129l2.943,3.84 c0.084,0.108,0.206,0.18,0.342,0.196c0.136,0.017,0.272-0.021,0.379-0.105l8.153-6.417c0.139-0.109,0.325-0.139,0.491-0.078 c0.166,0.06,0.289,0.203,0.326,0.376l1.601,7.679c0.035,0.167,0.151,0.306,0.309,0.369c0.158,0.064,0.338,0.045,0.479-0.051 l3.512-2.384c0.115-0.078,0.255-0.106,0.39-0.078c0.135,0.028,0.253,0.109,0.328,0.226l2.236,3.509 c0.077,0.12,0.201,0.204,0.342,0.229c0.142,0.025,0.287-0.011,0.4-0.098l6.388-4.918c0.135-0.104,0.311-0.134,0.473-0.08 c0.161,0.054,0.284,0.183,0.331,0.347l1.091,3.875c0.484,1.719,1.908,3.009,3.666,3.323l12.9,2.297H247.629 c-3.82,0-6.918,3.097-6.918,6.918v29.915c0,3.82,3.097,6.918,6.918,6.918h73.132l-31.264,88.111 c-1.869,5.267,0.884,11.052,6.152,12.921c5.27,1.869,11.053-0.889,12.921-6.152l33.665-94.879h67.78l33.667,94.879 c1.868,5.266,7.651,8.022,12.921,6.152c5.267-1.868,8.021-7.654,6.152-12.921l-31.264-88.111h73.593 c3.82,0,6.918-3.097,6.918-6.918v-29.915C512,310.425,508.903,307.328,505.083,307.328z"></path> </g> </g> </g>
@@ -134,31 +134,26 @@ export default function Home() {
               <h1 className='text-1xl'>Carpenter</h1>
               <p className='text-center'>Elevate your home with expert carpentry services, delivering precision-crafted solutions to enhance every corner of your living space.</p>
             </div>
-            <div className='w-[30%] flex flex-col rounded-2xl py-10 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] px-16 justify-center items-center'>
-              <div className='p-4 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] rounded-full flex justify-center items-center bg-[#5025FF]'>
-                
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="42" height="42" color="currentcolor" fill="none">
-                <path d="M21 6C21 7.65685 19.6569 9 18 9C16.3431 9 15 7.65685 15 6C15 4.34315 16.3431 3 18 3C19.6569 3 21 4.34315 21 6Z" stroke="currentColor" strokeWidth="1.5" />
-                <path d="M21 18C21 19.6569 19.6569 21 18 21C16.3431 21 15 19.6569 15 18C15 16.3431 16.3431 15 18 15C19.6569 15 21 16.3431 21 18Z" stroke="currentColor" strokeWidth="1.5" />
-                <path d="M15 8L3 19" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M15.0003 16L11 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M3 5.00011L8.5 10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
+            <div className='border w-[30%] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 flex flex-col rounded-2xl py-10 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] px-16 justify-center items-center'>
+              <div className='p-4 border shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] rounded-full flex justify-center items-center '>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="42" height="42" color="currentcolor" fill="none">
+                  <path d="M21 6C21 7.65685 19.6569 9 18 9C16.3431 9 15 7.65685 15 6C15 4.34315 16.3431 3 18 3C19.6569 3 21 4.34315 21 6Z" stroke="currentColor" strokeWidth="1.5" />
+                  <path d="M21 18C21 19.6569 19.6569 21 18 21C16.3431 21 15 19.6569 15 18C15 16.3431 16.3431 15 18 15C19.6569 15 21 16.3431 21 18Z" stroke="currentColor" strokeWidth="1.5" />
+                  <path d="M15 8L3 19" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M15.0003 16L11 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="M3 5.00011L8.5 10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
               </div>
               <h1 className='text-1xl'>Barber</h1>
               <p className='text-center'>
                 Achieve your perfect look with professional barber services, offering expert cuts and grooming tailored to your style.
               </p>
             </div>
-            <div className='w-[30%] flex flex-col rounded-2xl py-10 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] px-16 justify-center items-center'>
-              <div className='p-4 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] rounded-full flex justify-center items-center bg-[#5025FF]'>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" color="#ffff" fill="none">
-                  <path d="M2 17.5H8M8 20.5H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M16 17.5H22M22 20.5H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M13.5 12H10.5V16H13.5V12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M17 7C17 9.76142 14.7614 12 12 12C9.23858 12 7 9.76142 7 7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.23858 17 7Z" stroke="currentColor" stroke-width="1.5" />
-                  <path d="M12 7L13.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M14 16H10C9.05719 16 8.58579 16 8.29289 16.2929C8 16.5858 8 17.0572 8 18V20C8 20.9428 8 21.4142 8.29289 21.7071C8.58579 22 9.05719 22 10 22H14C14.9428 22 15.4142 22 15.7071 21.7071C16 21.4142 16 20.9428 16 20V18C16 17.0572 16 16.5858 15.7071 16.2929C15.4142 16 14.9428 16 14 16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <div className='border  w-[30%] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 flex flex-col rounded-2xl py-10 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] px-16 justify-center items-center'>
+              <div className='p-4 border shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] rounded-full flex justify-center items-center '>
+                <svg viewBox="0 0 100 100" height="64" width="64" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" fill="currentcolor">
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"><path class="cls-1" d="M96.4,20.35H70.9a1.18,1.18,0,0,1-.7-.24l-7-5.35a2.17,2.17,0,0,0-1.31-.44H54.13l-1.61-3.48a.48.48,0,0,0-.45-.29H8.68a.53.53,0,0,0-.24.06,13.08,13.08,0,0,0-7,12.17c.41,7.1,6.7,10.53,7,10.67a.53.53,0,0,0,.24.06h3.07v1a.5.5,0,0,0,.08.26,20.34,20.34,0,0,1,2.52,6.17c1.86,8.31-2.24,15.47-4.1,18.17a.54.54,0,0,0-.08.28v1H7.91a4.57,4.57,0,0,0-4.2,2.55,4.23,4.23,0,0,0-.36,1.21,4.74,4.74,0,0,0,.58,3,4.56,4.56,0,0,0,4,2.18H28.44a3.35,3.35,0,0,1,1.49,6.38,3.26,3.26,0,0,1-1.45.28H13.67a4.52,4.52,0,0,0-4.06,2.28,4.65,4.65,0,0,0-.54,2.28,4.42,4.42,0,0,0,4.62,4.3H40.42v.68a4,4,0,0,0,4,4h2a.5.5,0,0,0,.5-.5V87.33h3.19v-1H46.89V82.69h3.19v-1H46.89V80.06a.5.5,0,0,0-.5-.5h-2a4,4,0,0,0-4,4v.31H13.69a3.58,3.58,0,0,1-3.33-2,3.67,3.67,0,0,1-.29-1.3A3.42,3.42,0,0,1,13.67,77H28.48a4.22,4.22,0,0,0,1.89-.39,4.36,4.36,0,0,0,.33-7.7,4.26,4.26,0,0,0-2.26-.57H7.92A3.55,3.55,0,0,1,4.8,66.63a3.76,3.76,0,0,1-.47-2.37,3.7,3.7,0,0,1,.28-.93,3.58,3.58,0,0,1,3.3-2h2.26v1a.5.5,0,0,0,.5.5h20a.5.5,0,0,0,.5-.5V60.81a.51.51,0,0,0-.32-.47l-4.8-1.76c-1.76-9.66-1-16.91,1.91-18.07a3.28,3.28,0,0,1,2.17,0,.48.48,0,0,0,.53-.16.5.5,0,0,0,.06-.55A4.94,4.94,0,0,1,30.35,36a4.35,4.35,0,0,1,.76-1.36.52.52,0,0,0,.11-.32v-.85h16v2.8H44.05a.51.51,0,0,0-.5.5v2.7a.51.51,0,0,0,.5.5h1.84V64.93a.49.49,0,0,0,.17.36h-2a.51.51,0,0,0-.5.5v2.7a.51.51,0,0,0,.5.5h9.76a.51.51,0,0,0,.5-.5v-2.7a.51.51,0,0,0-.5-.5H52.36a.48.48,0,0,0,.16-.36V40h1.29a.51.51,0,0,0,.5-.5v-2.7a.51.51,0,0,0-.5-.5H50.58v-2.8H52a.52.52,0,0,0,.43-.24l1.64-2.65h7.79a2.17,2.17,0,0,0,1.31-.44l7-5.35a1.18,1.18,0,0,1,.7-.24H96.4a2.12,2.12,0,1,0,0-4.24Zm-55,63.16a3,3,0,0,1,3-3h1.47v7.89H44.42a3,3,0,0,1-3-3ZM53.31,68H44.55v-1.7h8.76ZM11.17,32.51V29.66a.5.5,0,0,0-.32-.46c-4.07-1.58-6.51-5.74-5.44-9.28s5.21-4.72,5.39-4.76a.5.5,0,0,0,.37-.49V11.55H45.56v21Zm35.39-21h5l0,21h-5Zm6,1.77.74,1.61V30l-.79,1.26ZM2.48,22.73A12.07,12.07,0,0,1,8.81,11.55h1.36v2.76c-1.2.4-4.67,1.84-5.72,5.32-1.2,4,1.3,8.5,5.72,10.37v2.51H8.81C8,32,2.84,28.86,2.48,22.73ZM15.32,40.67a21.21,21.21,0,0,0-2.57-6.35v-.81H17.9L16,58.45H11.84C13.92,55.06,17.05,48.35,15.32,40.67Zm14.9,20.49v.72h-19V59.5l0,0h5.22a.49.49,0,0,0,.5-.46l2-25.48h1.68L18.9,58.72a.54.54,0,0,0,.13.37.53.53,0,0,0,.36.17l6.17.19Zm0-27a5.53,5.53,0,0,0-.82,1.53,5.61,5.61,0,0,0,.09,3.64,3.75,3.75,0,0,0-1.85.22c-3.43,1.38-4.4,8.58-2.58,18.85l-5.12-.16,1.64-24.76h8.64Zm21.3,30.24H46.89V40h4.63ZM53.31,39H44.55v-1.7h8.76Zm-3.73-2.7H48.23v-2.8h1.35Zm13-6.93a1.19,1.19,0,0,1-.71.24H54.31V15.32h7.57a1.19,1.19,0,0,1,.71.24l4,3v7.72ZM96.4,23.59H70.9a2.14,2.14,0,0,0-1.31.45l-2,1.53v-6.2l2,1.53a2.14,2.14,0,0,0,1.31.45H96.4a1.12,1.12,0,1,1,0,2.24Z"></path><rect class="cls-1" height="1" width="4.54" x="6.82" y="19.74"></rect><rect class="cls-1" height="1" width="2.61" x="8.75" y="16.36"></rect><rect class="cls-1" height="1" width="4.54" x="6.82" y="23.32"></rect><rect class="cls-1" height="1" width="2.61" x="8.75" y="26.7"></rect><path class="cls-1" d="M43.73,20.35H13.55a.5.5,0,0,0-.5.5v6.58a.5.5,0,0,0,.5.5H43.73a.5.5,0,0,0,.5-.5V20.85A.5.5,0,0,0,43.73,20.35Zm-.5,6.58H14.05V21.35H43.23Z"></path><path class="cls-1" d="M43.73,15.71H13.55a.5.5,0,0,0-.5.5v2.15a.5.5,0,0,0,.5.5H43.73a.5.5,0,0,0,.5-.5V16.21A.5.5,0,0,0,43.73,15.71Zm-.5,2.15H14.05V16.71H43.23Z"></path></g>
                 </svg>
               </div>
               <h1 className='text-1xl'>Electrician</h1>
@@ -166,16 +161,12 @@ export default function Home() {
                 Ensure your home stays powered and safe with professional electrician services, providing reliable solutions for all your electrical needs.
               </p>
             </div>
-            <div className='w-[30%] flex flex-col rounded-2xl py-10 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] px-16 justify-center items-center'>
-              <div className='p-4 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] rounded-full flex justify-center items-center bg-[#5025FF]'>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64" color="#ffff" fill="none">
-                  <path d="M2 17.5H8M8 20.5H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M16 17.5H22M22 20.5H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M13.5 12H10.5V16H13.5V12Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M17 7C17 9.76142 14.7614 12 12 12C9.23858 12 7 9.76142 7 7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.23858 17 7Z" stroke="currentColor" stroke-width="1.5" />
-                  <path d="M12 7L13.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M14 16H10C9.05719 16 8.58579 16 8.29289 16.2929C8 16.5858 8 17.0572 8 18V20C8 20.9428 8 21.4142 8.29289 21.7071C8.58579 22 9.05719 22 10 22H14C14.9428 22 15.4142 22 15.7071 21.7071C16 21.4142 16 20.9428 16 20V18C16 17.0572 16 16.5858 15.7071 16.2929C15.4142 16 14.9428 16 14 16Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <div className='border w-[30%] cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 flex flex-col rounded-2xl py-10 shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] px-16 justify-center items-center'>
+              <div className='p-4 border shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)] rounded-full flex justify-center items-center '>
+                <svg fill="currentcolor" height="64" width="64" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488.601 488.601" >
+                  <g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="XMLID_27_"> <path id="XMLID_32_" d="M261.133,458.918c0,5.868,4.835,10.305,10.69,10.305h62.091c5.86,0,10.219-4.436,10.219-10.305v-47.695h-83 V458.918z"></path> <path id="XMLID_337_" d="M152.896,95.295c26.302,0,47.639-21.328,47.639-47.644C200.534,21.328,179.197,0,152.896,0 c-26.332,0-47.663,21.328-47.663,47.651C105.233,73.967,126.563,95.295,152.896,95.295z"></path> <path id="XMLID_418_" d="M222.792,238.222h-36.658c0,33,0,13.255,0,45.63c0,5.866-4.629,10.37-10.502,10.37 c-4.808,0-40.664,0-45.501,0c-5.86,0-10.996-4.504-10.996-10.37c0-29.978,0-24.358,0-45.507l-36.356,0.038l-17.641,83.514 c-0.666,3.127,0.176,6.15,2.186,8.642c2.022,2.483,5.111,3.684,8.296,3.684h19.514v129.924c0,13.511,10.979,24.455,24.5,24.455 c13.502,0,24.5-10.944,24.5-24.455V334.222h18v129.924c0,13.511,10.982,24.455,24.503,24.455c13.496,0,24.497-10.944,24.497-24.455 V334.222h19.008c3.203,0,6.243-1.2,8.252-3.684c2.017-2.491,2.798-5.7,2.131-8.827L222.792,238.222z"></path> <path id="XMLID_419_" d="M88.673,212.222h128.53l-4.795-22.668l13.883,20.829c3.058,4.607,8.108,7.746,13.552,8.741l51.29,9.269 V355.63c-17,5.217-29.706,20.592-29.882,39.592h83.234c-0.175-19-12.352-34.375-29.352-39.592V226.035 c4-2.966,6.877-7.259,7.835-12.487c1.398-7.777-1.835-15.158-7.835-19.663V52.5c0-6.751-5.249-12.228-12-12.228 s-12,5.476-12,12.228v134.457l-35.464-6.409l-44.508-66.732c-3.82-5.771-10.185-8.564-16.621-8.707l-83.167-0.225 c-7.611,0.152-14.837,4.387-18.197,11.758L25.221,265.512c-4.681,10.236-0.167,22.329,10.059,27 c10.33,4.699,22.346,0.122,26.996-10.077l20.929-45.672L88.673,212.222z"></path> <path id="XMLID_420_" d="M450.79,456.352c0.177-1.031,0.29-2.085,0.29-3.167c0-10.259-8.316-18.574-18.575-18.574 c-0.876,0-1.731,0.081-2.574,0.198c-2.75-7.409-9.677-12.773-18.032-12.773c-9.106,0-16.433,6.418-18.534,14.88 c-2.071-1.147-4.317-1.974-6.848-1.974c-7.926,0-14.362,6.431-14.362,14.358c0,2.534,0.83,4.786,1.979,6.849 c-8.634,0.414-15.554,7.221-15.554,15.961c0,9.003,7.302,16.112,16.299,16.112h74.05c8.991,0,16.299-7.109,16.299-16.112 C465.229,463.765,458.879,457.309,450.79,456.352z"></path> </g> </g>
                 </svg>
+
               </div>
               <h1 className='text-1xl'>Housekeeper</h1>
               <p className='text-center'>
@@ -187,37 +178,35 @@ export default function Home() {
 
 
 
-        <section className="orderSection mt-[40dvh] md:mt-[10dvh] md:flex items-center  p-2 justify-around">
+        <section className="orderSection mt-[20dvh] flex-row-reverse  flex items-center  p-2 justify-around">
 
           <div className="flex flex-col gap-4 px-5 md:w-[40%]">
-            <h1 className="flex items-center gap-2">We work for you <div className=" bg-primary w-[20dvh] h-[0.5dvh]"></div></h1>
-            <h1 className="text-4xl font-bold text-[#222446]">
+            <h1 className="flex items-center gap-2 text-white">We work for you <div className=" bg-secondary w-[20dvh] h-[0.5dvh]"></div></h1>
+            <h1 className="text-4xl font-bold text-secondary">
               Order Your Household Service From Professionals Working In The Specific Feild
             </h1>
-            <p className="text-sm sm:text-base">
+            <p className="text-sm sm:text-base text-white">
               Our most requested services are in the field of household management. Certified professionals, with expertise in various household tasks, handle all services efficiently. Additionally, we offer secure blockchain payment methods for a seamless and transparent transaction process.
             </p>
             <Link to={'/services-form'}>
 
               <div className="translate hover:ease-in-out flex items-center h-[50px]">
                 <button
-                  className="p-3 text-sm sm:text-base rounded-md bg-primary text-white hover:bg-white hover:text-secondary transition-transform duration-500 border-[1px] sm:hover:scale-105 hover:border-[1px] hover:border-secondary"
+                  className="p-3 text-sm sm:text-base rounded-md bg-secondary border-secondary text-white hover:bg-white hover:text-secondary transition-transform duration-500 border-[1px] sm:hover:scale-105 hover:border-[1px] hover:border-secondary"
                 >Order Now</button>
               </div>
             </Link>
           </div>
 
           <div className="orderSectionPictures  flex justify-center gap-2 mt-2 md:mt-0 md:w-[50%] ">
-            {/* <div >
-      <img style={{ clipPath: "polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%)" }} src={Discussion} className="shadow-2xl border-2 border-red-600" loading="lazy" width={"400px"} height={"400px"}  alt="People Discussing With Each Other" />
-    </div> */}
+
             <div >
               <img style={{ borderRadius: "0% 100% 0% 100% / 20% 0% 100% 80% " }} src={File} className="shadow-[0_10px_22px_rgba(29,_78,_216,_0.4)]" loading="lazy" width={"400px"} height={"400px"} alt="People Discussing With Each Other" />
             </div>
           </div>
         </section>
 
-        <section className="servicesDetailSection mt-40  bg-primary bg-no-repeat bg-cover">
+        <section className="servicesDetailSection  mt-[20dvh] bg-no-repeat bg-cover">
           <div className="flex flex-col justify-around py-20">
 
             <div className="flex justify-around">
